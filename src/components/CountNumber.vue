@@ -11,9 +11,6 @@
 import { tokyoNumber } from "@/tokyoNumber";
 
 export default {
-  mixins:[tokyoNumber],
-  created() {
-    console.log("123456789");
-  }
+  mixins:[tokyoNumber]
 };
 </script>
